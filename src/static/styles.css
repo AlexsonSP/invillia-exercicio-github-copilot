@@ -80,7 +80,7 @@ section h3 {
 
 .activity-card p:last-of-type {
   margin-top: 10px;
-  font-style: italic;
+  font-style: normal;
   color: #555;
 }
 
@@ -92,12 +92,12 @@ section h3 {
 }
 
 .activity-card p:last-of-type span {
-  display: inline-block;
+  display: block; /* Cada participante em uma linha */
   background-color: #e3f2fd;
   color: #0d47a1;
-  padding: 3px 8px;
-  margin: 2px;
-  border-radius: 12px;
+  padding: 5px 10px;
+  margin: 3px 0;
+  border-radius: 8px;
   font-size: 14px;
 }
 
